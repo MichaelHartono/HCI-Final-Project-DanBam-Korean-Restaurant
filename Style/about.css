@@ -1,0 +1,308 @@
+@font-face {
+    font-family: roboto-bold;
+    src: url('../Assets/fonts/Roboto-Bold.ttf');
+}
+
+* {
+  font-family: roboto-bold;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Header */
+.header{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo_img img{
+	width: 150px;
+}
+
+/* Navigation */
+
+.navlist > ul {
+  	width: 15%;
+}
+
+.navlist > ul > li {
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	width: 100px;
+	text-align: center;
+	background-color: rebeccapurple;
+	border-radius: 16px;
+}
+
+.navlist > ul > li p {
+	color: white;
+}
+
+.navlist > ul > li a {
+  	display: block;
+  	color: white;
+}
+
+.navlist > ul > li:hover {
+  	background-color: white;
+}
+
+.navlist > ul > li:hover p {
+  	color: black;
+}
+
+/* Dropdown */
+
+.navlist > ul > li > ul {
+	position: absolute;
+	display: none;
+	width: 100px;
+	list-style: none;
+	padding: 8px;
+	z-index: 1;
+}
+
+.navlist > ul > li > ul > li {
+  	padding: 5px;
+}
+
+.navlist > ul > li:hover ul {
+  	display: block;
+  	background-color: rgba(22, 24, 28, 0.9);
+}
+
+.navlist > ul > li > ul > li:hover {
+  	background-color: rebeccapurple;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+}
+
+#first_content {
+  position: relative;
+  width: 100%;
+  /* background-color: black; */
+  background-image: url(/Assets/images/banners/banner.jpg);
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+  color: white;
+}
+
+.container {
+  width: 50%;
+  height: auto;
+  background-color: rgba(22, 24, 28, 0.9);
+  padding: 8px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.photo_img img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  box-shadow: 0 1px 10px 5px #ea00d9;
+}
+
+.photo_img img:hover{
+  box-shadow: 0 1px 10px 8px #ea00d9;
+}
+
+.desc {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  padding: 4px;
+}
+
+.section_title p {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 32px;
+  color: white;
+  border-bottom: #ea00d9 solid 4px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#second_content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 33%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.restaurant_desc p {
+  font-size: 26px;
+  color: white;
+}
+
+.restaurant_photo img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  box-shadow: 0 1px 5px 2px #ea00d9;
+}
+
+.restaurant_photo:hover{
+  box-shadow: 0 1px 10px 2px #ea00d9;
+}
+
+.third_content{
+  width: 100%;
+  background-color: #16181c;
+}
+
+.socials{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials_container{
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social_media{
+    padding-top: 16px;
+}
+
+.social_media img {
+  background-color: white;
+  border-radius: 16px;
+  width: 30%;
+}
+
+.social_media p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.find_us p{
+  padding: 16px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+.social_media img:hover{
+  box-shadow: 0 1px 10px 4px #ea00d9;
+}
+
+/* Footer */
+.footer{
+    position: relative;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footer_content{
+	color: white;
+    width: 30%;
+    padding-top: 16px;
+	padding-left: 16px;
+}
+
+.footer_title p{
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: white solid 2px;
+}
+
+.contact {
+	width: 100%;
+}
+
+.contact p{
+	font-size: 14px;
+}
+
+@media screen and (max-width: 969px) {
+
+  .logo_img{
+		display: none;
+	}
+
+  .title p{
+    font-size: 5vw;
+  }
+
+  .desc p{
+    font-size: 3vw;
+  }
+
+  .section_title p{
+    font-size: 5vw;
+  }
+  
+  #second_content{
+    flex-direction: column;
+  }
+
+  .restaurant_desc p{
+    font-size: 4vw;
+  }
+
+  .socials_container{
+    flex-direction: column;
+  }
+
+  .social_media img{
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+  }
+
+  .footer{
+		flex-direction: column;
+	}
+
+	.footer_title p{
+		font-size: 3vw;
+	}
+
+	.contact p{
+		font-size: 2vw;
+	}
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DanBam - Home</title>
+	<link rel="icon" href="Assets/images/banners/DanBam_Logo_Revisi.png">
+    <link href="Style/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./Script/jquery-3.5.1.js" defer></script>
+    <script src="./Script/script.js" defer></script>
+  </head>
+  
+  <body> 
+    <header class="header">
+		<div class="logo_img">
+			<img src="Assets/images/banners/DanBam_Logo_Revisi.png" alt="">
+		</div>
+      	<nav class="navlist">
+			<ul>
+				<li>
+					<p>Navigation</p>
+					<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="location.html">Location</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</li>
+			</ul>
+      	</nav>
+    </header>
+    
+    <div class="first_content">
+        <div class="banner">
+            <img src="Assets/images/banners/banner.jpg" alt="">
+        </div>
+        <div class="logo">
+            <img src="Assets/images/banners/DanBam_Logo_Revisi.png" alt="">
+        </div>
+        <div class="welcome">
+            <div class="welcome_title">
+                <p>Welcome to DanBam</p>
+            </div>
+            <div class="welcome_desc">
+                <p>
+                    DanBam is a Korean restaurant that has served the people of South Korea since 1979. We always strive to provide the best service to our customer. 
+                </p>
+                <p>
+                    We offer the highest quality of traditional Korean food and bar service to our customers.
+                </p>
+            </div>
+			<div class="learn_more">
+				<a href="about.html">
+					Learn More
+				</a>
+			</div>
+        </div>
+    </div>
+
+    <div class="second_content">
+      	<div class="recommendation_title">
+        	<p>Menu Recommendation</p>
+      	</div>
+		<div class="container">
+			<div class="menu_img">
+				<img src="Assets/images/menu/naengmyeon.png" alt="">
+				<div class="overlay">
+					<a href="menu.html">
+						View Menu
+					</a>
+				</div>
+			</div>
+			<div class="menu_content">
+				<div class="desc">
+					<div class="menu_name">
+						<p>Naengmyeon</p>
+					</div>
+					<div class="menu_desc">
+						<p>
+							Naengmyeon is a Korean noodle dish of long and thin handmade noodles made from the 
+							flour and starch of various ingredients, including buckwheat, potatoes, sweet 
+							potatoes, arrowroot starch, and kudzu.
+						</p>
+					</div>
+				</div>
+			</div>
+    	</div>
+		<div class="container_2">
+			<div class="menu_content_2">
+				<div class="desc">
+					<div class="menu_name">
+						<p>Baekseju</p>
+					</div>
+					<div class="menu_desc">
+						<p>Baekseju is a herb-flavored Korean rice wine made with fermented glutinous rice. 
+							Ginseng is the dominant flavor and includes a blend of herbs and spices such as ginger, omija, goji berries, 
+							or cinnamon.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu_img">
+				<img src="Assets/images/menu/Baekseju.jpg" alt="">
+				<div class="overlay">
+					<a href="menu.html">
+						View Menu
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="menu_img">
+				<img src="Assets/images/menu/Gwapyeon.jpg" alt="">
+				<div class="overlay">
+					<a href="menu.html">
+						View Menu
+					</a>
+				</div>
+			</div>
+			<div class="menu_content_3">
+				<div class="desc">
+					<div class="menu_name">
+						<p>Gwapyeon</p>
+					</div>
+					<div class="menu_desc">
+						<p>Gwapyeon is a traditional Korean dessert made with fruit. 
+							It is made by boiling fruit juice with honey, sugar, and starch.
+						</p>
+					</div>
+				</div>
+			</div>
+    	</div>
+	</div>
+
+    <div class="third_content">
+      	<div class="location_title">
+          <p>Our Location</p>
+      	</div>
+    	<div class="location">
+			<div class="location_img">
+				<img src="Assets/images/branchLocation/Dan_Bam_Exterior.png" alt="">
+			</div>
+			<div class="location_content">
+				<div class="location_desc">
+					<div class="location_address">
+						<p>57-26 Itaewon 1(il)-dong, Yongsan-gu, Seoul, South Korea</p>
+					</div>
+					<div class="location_map">
+						<img src="Assets/images/branchLocation/map_danbam.jpg" alt="">
+						<div class="view_map">
+							<a href="https://goo.gl/maps/EPqNZGq42BN7jYUZ6">View on Map</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <footer class="footer">
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Contact Info</p>
+			</div>
+			<div class="contact">
+				<p>Email: danbam.info@gmail.com</p>
+				<p>Phone: +8252322167</p>
+				<p>Address: 57-26 Itaewon 1(il)-dong, Yongsan-gu, Seoul, South Korea</p>
+			</div>
+		</div>
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Support</p>
+			</div>
+			<div class="contact">
+				<p>Customer Service</p>
+				<p>Help</p>
+				<p>FAQ</p>
+			</div>
+		</div>
+    </footer>
+
+  </body>
+</html>
+

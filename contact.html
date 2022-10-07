@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DanBam - Contact Us</title>
+  <link rel="stylesheet" href="Style/contact.css">
+  <script src="Script/contact.js" defer></script>
+  <link rel="icon" href="Assets/images/banners/DanBam_Logo_Revisi.png">
+</head>
+<body>
+  <header class="header">
+		<div class="logo_img">
+      <a href="index.html">
+        <img src="Assets/images/banners/DanBam_Logo_Revisi.png" alt="logo">
+      </a>
+		</div>
+      	<nav class="navlist">
+          <ul>
+            <li>
+              <p>Navigation</p>
+              <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+      	</nav>
+  </header>
+
+
+  <main>
+    <div class="content_title">
+      <div class="title">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="desc">
+        <p>Message Us Now</p>
+      </div>
+    </div>
+    <div id="bgForm">
+      <div class="messageForm">
+  
+        <form action="" method="get" id="form">
+          <div class="input">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name">
+            <div id="errName" class="err"></div>
+          </div>
+      
+          <div class="input">
+            <label for="email">Email</label> <br>
+            <input type="text" name="email" id="email">
+            <div id="errEmail" class="err"></div>
+          </div>
+      
+          <div class="input">
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label>
+            <div id="errGender" class="err"></div>
+          </div>
+      
+          <div class="input">
+            <label for="name">Branch Location</label> <br>
+            <select name="location" id="location">
+              <option value="-1">-- Choose --</option>
+              <option value="1">57-56 Itaewon il-dong, Seoul</option>
+              <option value="2">145 Woljeong-ro, Seoul</option>
+              <option value="3">Itaewon-dong, Seoul</option>
+              <option value="4">43 Sinheung-ro, Seoul</option>
+            </select>
+            <div id="errLocation" class="err"></div>
+          </div>
+      
+          <div class="input">
+            <label for="message">Message</label> <br>
+            <input type="text" name="message" id="message">
+          </div>
+
+          <div class="input">
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Get Latest News</label>           
+          </div>
+
+          <div id="errMessage" class="err"></div>
+          <div class="input">
+            <input type="submit" value="SUBMIT">
+          </div>
+          
+    
+        </form>
+        
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Contact Info</p>
+			</div>
+			<div class="contact">
+				<p>Email: danbam.info@gmail.com</p>
+				<p>Phone: +8252322167</p>
+				<p>Address: 57-26 Itaewon 1(il)-dong, Yongsan-gu, Seoul, South Korea</p>
+			</div>
+		</div>
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Support</p>
+			</div>
+			<div class="contact">
+				<p>Customer Service</p>
+				<p>Help</p>
+				<p>FAQ</p>
+			</div>
+		</div>
+    </footer>
+  
+</body>
+</html>

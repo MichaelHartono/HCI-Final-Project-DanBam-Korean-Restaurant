@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DanBam - Menu</title>
+  <script src="Script/jquery-3.5.1.js" defer></script>
+  <script src="Script/menu.js" defer></script>
+  <script src="https://kit.fontawesome.com/5f0f0f2d20.js" defer></script>
+  <link rel="stylesheet" href="./Style/font.css">
+  <link rel="icon" href="Assets/images/banners/DanBam_Logo_Revisi.png">
+  
+  <link href="./Style/menu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header class="header">
+		<div class="logo_img">
+      <a href="index.html">
+        <img src="Assets/images/banners/DanBam_Logo_Revisi.png" alt="logo">
+      </a>
+		</div>
+      	<nav class="navlist">
+          <ul>
+            <li>
+              <p>Navigation</p>
+              <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="location.html">Location</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+      	</nav>
+  </header>
+  
+  <main>
+    <div class="main-title">
+      <h1>Our Menu Recommendation</h1>
+    </div>
+  
+    <div class="container">
+      <i class="fas fa-chevron-circle-left fa-2x" id="slide-left"></i>
+      <div class="slide">
+        <div class="slider-contatiner">
+          <img class="slider" src="./Assets/images/menu/bulgogi.png" alt="">
+          <div class="slide-text">
+              <p class="title">Bulgogi</p>
+              <p class="recommend-desc">Most Popular</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="slide">
+        <div class="slider-contatiner">
+          <img class="slider" src="./Assets/images/menu/tteokbokki.png" alt="">
+          <div class="slide-text">
+              <p class="title">Tteokbokki</p>
+              <p class="recommend-desc">Buy 1 Get 1 Free</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slider-contatiner">
+          <img class="slider" src="./Assets/images/menu/jajangmyeon.png" alt="">
+          <div class="slide-text">
+              <p class="title">Jajangmyeon</p>
+              <p class="recommend-desc">New Arrival</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slider-contatiner">
+          <img class="slider" src="./Assets/images/menu/soju.png" alt="">
+          <div class="slide-text">
+              <p class="title">Soju</p>
+              <p class="recommend-desc">Most Popular</p>
+          </div>
+        </div>
+      </div>
+      <i class="fas fa-chevron-circle-right fa-2x" id="slide-right"></i>
+  </div>
+  
+  
+  
+    <div class="main-title">
+      <h1>All Menu</h1>
+    </div>
+   
+    <div class="buttons">
+      <button id="button-food" class="view-btn">Hide Menu</button>
+    </div>
+  
+    <div class="menu">
+  
+      <div class="section-title">
+        <h2>Our Food Menu</h2>
+      </div>
+      <div class="row">
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/jajangmyeon.png" alt="Jajangmyeon">
+            </div>
+            <div class="desc">
+              <p class="item-name"><b>Jajangmyeon</b></p>
+              <p class="item-desc">Black bean noodles with chasiu pork.</p>
+              <p class="item-price">3.500 won</p>
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/kimchi.png" alt="Kimchi">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Kimchi</b></p>
+              <p class="item-desc">Lightly pickled white cabbage with a spicy taste.</p>
+              <p class="item-price">2.800 won</p>
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+              
+            </div>
+  
+            
+          </div>
+        </div>
+  
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/tteokbokki.png" alt="Tteokbokki">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Tteokbokki</b></p>
+              <p class="item-desc">Rice cakes cooked in a spicy sauce.</p>
+              <p class="item-price">2.500 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+  
+            </div>
+            
+            
+  
+          </div>
+        </div>
+  
+      </div>
+      
+      <div class="row">
+        
+  
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/japchae.png" alt="Japchae">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Japchae</b></p>
+              <p class="item-desc">Stir-fried Glass Noodle.</p>
+              <p class="item-price">4.000 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+  
+            </div>
+  
+            
+          </div>
+        </div>
+        
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/naengmyeon.png" alt="Naengmyeon">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Naengmyeon</b></p>
+              <p class="item-desc">Noodle dish of long and thin handmade noodle with variety of ingerdients.</p>
+              <p class="item-price">4.500 won</p>
+              
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+  
+            </div>
+  
+            
+          </div>
+        </div>
+    
+        <div class="menuItem">
+          <div class="item food">
+            <div class="image">
+              <img src="Assets/images/menu/bulgogi.png" alt="Bulgogi">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Bulgogi</b></p>
+              <p class="item-desc">Thin, marinated slices of beef or pork grilled on a barbecue or on a stove-top griddle.</p>
+              <p class="item-price">3.500 won</p>
+              
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+  
+            </div>
+  
+            
+          </div>
+          
+          
+        </div>
+      </div>
+  
+      <div class="section-title">
+        <h2>Our Drinks Menu</h2>
+      </div>
+  
+      <div class="row">
+        <div class="menuItem">
+          <div class="item drink">
+            <div class="image">
+              <img src="Assets/images/menu/nokcha.png" alt="Nokcha">
+            </div>
+            <div class="desc">
+              <p class="item-name"><b>Nokcha</b></p>
+              <p class="item-desc">Korean green tea, made with the finest tea leaves.</p>
+              <p class="item-price">2.100 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="menuItem">
+          <div class="item drink">
+            <div class="image">
+              <img src="Assets/images/menu/soju.png" alt="Soju">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Soju</b></p>
+              <p class="item-desc">Alcoholic drink made from rice.</p>
+              <p class="item-price">1.500 won / bottle</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="menuItem">
+          <div class="item drink">
+            <div class="image">
+              <img src="Assets/images/menu/baekseju.png" alt="Baekseju">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Baekseju</b></p>
+              <p class="item-desc">Alcoholic drink made from rice. With addition of herbs.</p>
+              <p class="item-price">1.800 won / bottle</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      
+      <div class="section-title">
+        <h2>Our Dessert Menu</h2>
+      </div>
+
+      <div class="row">
+  
+        <div class="menuItem">
+          <div class="item dessert">
+            <div class="image">
+              <img src="Assets/images/menu/makgeolli.png" alt="Makgeolli">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Makgeolli Ice Cream</b></p>
+              <p class="item-desc">Korean ice cream made from rice wine.</p>
+              <p class="item-price">1.200 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="menuItem">
+          <div class="item dessert">
+            <div class="image">
+              <img src="Assets/images/menu/gwapyeon.png" alt="Gwapyeon">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Gwapyeon</b></p>
+              <p class="item-desc">Jelly-like traditional Korean sweets from fruits.</p>
+              <p class="item-price">1.800 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="menuItem">
+          <div class="item dessert">
+            <div class="image">
+              <img src="Assets/images/menu/patbingsoo.png" alt="Patbingsoo">
+            </div>
+  
+            <div class="desc">
+              <p class="item-name"><b>Patbingsoo</b></p>
+              <p class="item-desc">Shaved ice topped with sweet red bean paste.</p>
+              <p class="item-price">1.500 won</p>
+  
+              <div class="buttons-menu">
+                <button class="order-btn">Order</button>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer class="footer">
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Contact Info</p>
+			</div>
+			<div class="contact">
+				<p>Email: danbam.info@gmail.com</p>
+				<p>Phone: +8252322167</p>
+				<p>Address: 57-26 Itaewon 1(il)-dong, Yongsan-gu, Seoul, South Korea</p>
+			</div>
+		</div>
+		<div class="footer_content">
+			<div class="footer_title">
+				<p>Support</p>
+			</div>
+			<div class="contact">
+				<p>Customer Service</p>
+				<p>Help</p>
+				<p>FAQ</p>
+			</div>
+		</div>
+    </footer>
+  
+  
+</body>
+</html>
