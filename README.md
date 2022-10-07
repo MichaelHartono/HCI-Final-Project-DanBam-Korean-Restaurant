@@ -3,3 +3,6 @@ Final project for Human and Computer Interaction course in BINUS University, thi
 This project is co-authored by:
 - Inigo Hersanta
 - Jeremy Michael
+
+The website can be viewed at:
+https://MichaelHartono.github.io
